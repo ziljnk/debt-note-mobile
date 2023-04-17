@@ -100,11 +100,11 @@ const styles = StyleSheet.create({
     width: screenWidth,
     alignItems: "center",
     height: "25%",
-    borderBottomRightRadius: "60%",
-    borderBottomLeftRadius: "60%",
+    // borderBottomRightRadius: "60%",
+    // borderBottomLeftRadius: "60%",
   },
   logoContainer: {
-    borderRadius: "100%",
+    // borderRadius: "100%",
     marginTop: 100,
     backgroundColor: "white",
     shadowColor: "#000",
@@ -187,7 +187,7 @@ const styles = StyleSheet.create({
   logInGoogleFacebookButton: {
     height: 45,
     width: 45,
-    borderRadius: "100%",
+    // borderRadius: "100%",
     borderWidth: 0.5,
     justifyContent: "center",
     alignItems: "center",
