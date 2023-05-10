@@ -4,6 +4,7 @@ import AppIntroSlider from 'react-native-app-intro-slider';
 import slide1 from '../images/intro1.png';
 import slide2 from '../images/intro2.png';
 import slide3 from '../images/intro3.png';
+import { useNavigation } from '@react-navigation/native';
 
 const slides = [
   {
@@ -36,9 +37,14 @@ const renderItem = ({ item }) => {
   );
 };
 
+
+
 const AppIntro = () => {
+  const navigation = useNavigation();
+
   const handleDone = () => {
     // Do something when the user clicks the "Done" button
+    navigation.navigate("Main");
   };
 
   return (
